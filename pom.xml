@@ -9,8 +9,8 @@
         <relativePath/>
     </parent>
     
-    <groupId>org.persapiens</groupId>
-    <artifactId>projeto1</artifactId>
+    <groupId>org.persapiens.algorithms</groupId>
+    <artifactId>algorithms-projeto1</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     
@@ -31,8 +31,8 @@
                 <scope>test</scope>
             </dependency>            
             <dependency>
-                <groupId>org.persapiens</groupId>
-                <artifactId>algorithms</artifactId>
+                <groupId>org.persapiens.algorithms</groupId>
+                <artifactId>algorithms-api</artifactId>
                 <version>${algorithms.version}</version>
                 <scope>compile</scope>
             </dependency>            
@@ -62,8 +62,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.persapiens</groupId>
-            <artifactId>algorithms</artifactId>
+            <groupId>org.persapiens.algorithms</groupId>
+            <artifactId>algorithms-api</artifactId>
         </dependency>
     </dependencies>
 </project>
